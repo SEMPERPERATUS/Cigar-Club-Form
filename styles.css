@@ -1,0 +1,29 @@
+h1 {
+  text-align: center; 
+  color: green;
+}
+
+p {
+  text-align:center;
+}
+
+textarea {
+  margin: 0 auto;
+  display: block
+}
+
+html {
+  background-color: ;
+}
+
+#content {
+  color: #8B4513; /* Rich brown, fits the cigar club vibe */
+}
+
+body {
+  background-image: url("C:\Users\laneh\OneDrive\Desktop\Project\Cigar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #8B4513;
+}

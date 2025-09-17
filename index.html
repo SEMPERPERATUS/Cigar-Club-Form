@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <div id="content">
+  <h1  id="title">Join Our Cigar Club</h1>
+  <p id="description">Enter your information below!</p>
+  
+  <form id="survey-form">
+  
+ <h2> <label id="name-label">Name: </label>
+  <input id="name" type="text" name="name" placeholder="Name" value="Name" required/>
+    
+    <label id="email-label">Email: </label>
+    <input id="email" type="email" name="email" placeholder="Email" required />
+        
+        <label id="number-label">Number:</label>
+    <input id="number" type="number" name="unknown" min="13" max="120" placeholder="Number" value="number" required/>
+    </h2>
+  
+  <label for="select">Frequency of Enjoyment:
+  <select id="dropdown" required>
+  <option value=""(Select One) disabled selected>(Select One)
+  <option value="casual">Casual enjoyer</option>
+  <option value="frequent">Frequent enjoyer</option>
+  </select>
+  
+  <p>Gender:</p>
+  <label>
+    <input type="radio" name="gender" value="male"/>Male
+    </label>
+
+    <label>
+  <input type="radio" name="gender" value="female"/>Female
+  </label><br>
+  
+ <p>Cigar Preference:</p>
+
+ <fieldset>
+  <legend>Which cigars do you prefer? (Choose one)</legend>
+   <label for="checkbox1">
+  <input type="checkbox" id="checkbox1" name="cigar" value="Cuban"/>Cuban
+  </label><br>
+
+  <label for="checkbox2">
+  <input type="checkbox" id="checkbox2" name="cigar" value="American"/>American
+  </label><br>
+  </fieldset>
+ 
+  <textarea id="bio" placeholder="Write a short bio here.."></textarea>
+
+<label for="input">
+  <input id="submit" type="submit"/>
+  </form>
+  </div>
+  </html>
